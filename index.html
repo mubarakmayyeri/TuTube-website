@@ -17,11 +17,11 @@
             </div>
             <div class="search">
                 <input class="search-bar" type="text">
-                <input class="search-button" type="submit" value="Search">
+                <input class="search-button" type="submit" value="Search" onclick="search()">
             </div>
             <div class="user-account">
                 <a href="user.html">
-                    <img class="user-logo"src="images/user acc.png">
+                    <img class="user-logo" src="images/account-profile-icon-1.png">
                 </a>
 
             </div>
@@ -34,11 +34,59 @@
                 <p class="view-count">102,729 views . 18 Jul 2022</p>
             </div>
             <div class="right-section">
+                <h1 class="heading">Create an user account</h1>
+                <div class="form">
+                    <form>
+                        <div class="name">
+                            <label>Full name :</label>
+                             <input type="text">
+                        </div>
+                        <br>
+                        <div class="address">
+                            <label>Address :</label>
+                            <input class="add-box" type="text">
+                        </div>
+                        <br>
+                        <div class="age">
+                            <label>Date of Birth :</label>
+                            <input class="age-box" type="date">
+                        </div>
+                        <div class="gender">
+                            <label for="">Gender</label>
+                            <br>
+                            <div class="radio">
+                                <input type="radio" name="gender">
+                                <label>Male</label>
+                                <input type="radio" name="gender">
+                                <label>Female</label>
+                                <input type="radio" name="gender">
+                                <label>Custom</label>
+                            </div> 
+                            <div class="pass">
+                                <input class="pass1" type="text" placeholder="New password">
+                                <input class="pass2" type="text" placeholder="Confirm password">
+                            </div> 
+                            <div class="terms">
+                                <p>By clicking Sign Up, you agree to our Terms, Data Policy <br> and Cookie Policy. You may receive SMS notifications from <br> us and can opt out at any time.</p>
+                            </div>
+                            <div>
+                                <input class="submit" type="submit" value="Sign Up">
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
 
 
             </div>
         </div>
     </div>
+
+    <script>
+        function search(){
+            alert("This feature is not developed yet!!!")
+        }
+    </script>
     
 </body>
 </html>

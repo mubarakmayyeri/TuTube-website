@@ -28,6 +28,7 @@ body{
     background-color: white;
     margin-left: 906px;
     margin-top: -35px;
+    border-radius: 30px;
 }
 .search-button{
     background-color: rgb(79, 81, 81);
@@ -45,8 +46,12 @@ body{
     float: left;
 }
 .right-section{
-    width: 30%;
+    margin-top: 10px;
+    margin-right: 5px;
+    width: 29%;
+    height: 550px;
     float: left;
+    background-color: rgb(23, 23, 23);
 }
 .main-body{
     font-family: "Roboto","Arial",sans-serif;
@@ -73,4 +78,50 @@ body{
     color:grey;
     padding-left: 150px;
     margin-top: -15px;
+}
+.heading{
+    color: #fff;
+    font-size: 25px;
+    margin-left: 50px;
+}
+.form{
+    color: white;
+    margin-left: 75px;
+}
+.add-box{
+    margin-left: 12px;
+    height: 75px;
+}
+.age-box{
+    margin-left: 35px;
+}
+.gender{
+    margin-top: 20px;
+}
+.radio{
+    margin-top: 10px;
+    color: gray;
+}
+.pass{
+    margin-top: 20px;
+}
+.pass1{
+    width: 250px;
+}
+.pass2{
+    margin-top: 20px;
+    width: 250px;
+}
+.terms{
+    margin-top: 40px;
+    font-size: 12px;
+}
+.submit{
+    margin-top: 15px;
+    margin-left: 100px;
+    width: 100px;
+    height: 35px;
+    font-size: large;
+    background-color: dimgray;
+    border-radius: 8px;
 }
