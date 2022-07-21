@@ -30,7 +30,7 @@ body{
     margin-top: -35px;
     border-radius: 30px;
 }
-.search-button{
+#search-button{
     background-color: rgb(79, 81, 81);
     color: #fff;
     height: 25px;

@@ -18,7 +18,7 @@
             </div>
             <div class="search">
                 <input class="search-bar" type="text">
-                <input class="search-button" type="submit" value="Search" onclick="search()">
+                <input id="search-button" type="submit" value="Search">
             </div>
             <div class="user-account">
                 <a href="user.html">
@@ -37,20 +37,20 @@
             <div class="right-section">
                 <h1 class="heading">Create an user account</h1>
                 <div class="form">
-                    <form>
+                    <form id="sign-up">
                         <div class="name">
                             <label>Full name :</label>
-                             <input type="text">
+                             <input name="fname" type="text">
                         </div>
                         <br>
                         <div class="address">
                             <label>Address :</label>
-                            <input class="add-box" type="text">
+                            <input name="address" class="add-box" type="text">
                         </div>
                         <br>
                         <div class="age">
                             <label>Date of Birth :</label>
-                            <input class="age-box" type="date">
+                            <input name="age" class="age-box" type="date">
                         </div>
                         <div class="gender">
                             <label for="">Gender</label>
@@ -64,8 +64,8 @@
                                 <label>Custom</label>
                             </div> 
                             <div class="pass">
-                                <input class="pass1" type="text" placeholder="New password">
-                                <input class="pass2" type="text" placeholder="Confirm password">
+                                <input name="pass1" class="pass1" type="text" placeholder="New password" id="pass">
+                                <input name="pass2" class="pass2" type="text" placeholder="Confirm password">
                             </div> 
                             <div class="terms">
                                 <p>By clicking Sign Up, you agree to our Terms, Data Policy <br> and Cookie Policy. You may receive SMS notifications from <br> us and can opt out at any time.</p>
@@ -99,11 +99,10 @@
         </div>
     </div>
 
-    <script>
-        function search(){
-            alert("This feature is not developed yet!!!")
-        }
-    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <script src="script.js"></script>
+
     
 </body>
 </html>
