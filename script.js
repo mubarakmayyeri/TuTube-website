@@ -34,6 +34,7 @@ $(document).ready(function(){
                 required:true
             },
             pass1:{
+                required:true,
                 minlength:8,
                 maxlength:15,
                 checklower: true,
